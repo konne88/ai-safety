@@ -43,6 +43,8 @@ The answer could be that there are many different goals to optimize for, so evol
 
 I'm not sure of the correct terminology, but maybe power-seeking is an attractor in a Markov game under certain realistic assumptions?
 
+The way to think about this may be that any single agent that's optimizing long term returns, for any given state, there is just one optimal action, which is independent of the reward function. 
+
 # Related Work
 
 - Stephen M. Omohundro (2008). [The Basic AI Drives](https://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/). In *Artificial General Intelligence 2008*.
