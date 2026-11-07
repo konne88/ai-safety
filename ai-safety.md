@@ -45,6 +45,10 @@ I'm not sure of the correct terminology, but maybe power-seeking is an attractor
 
 # Related Work
 
-- Stephen M. Omohundro (2008). [The Basic AI Drives](https://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/).
+- Stephen M. Omohundro (2008). [The Basic AI Drives](https://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/). In *Artificial General Intelligence 2008*.
 
-- Alex Turner, Logan Smith, Rohin Shah, Andrew Critch, and Prasad Tadepalli (2021). [Optimal Policies Tend To Seek Power](https://papers.nips.cc/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html). 
+- Nick Bostrom (2012). [The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents](https://doi.org/10.1007/s11023-012-9281-3). *Minds and Machines*, 22, 71–85. Develops the instrumental convergence thesis: agents with a wide range of final goals may pursue similar instrumental goals.
+
+- Tsvi Benson-Tilsen and Nate Soares (2016). [Formalizing Convergent Instrumental Goals](https://cdn.aaai.org/ocs/ws/ws0218/12634-57409-1-PB.pdf). *AAAI Workshop on AI, Ethics, and Society*. Provides formal models of instrumental convergence, including incentives to acquire resources.
+
+- Alex Turner, Logan Smith, Rohin Shah, Andrew Critch, and Prasad Tadepalli (2021). [Optimal Policies Tend To Seek Power](https://papers.nips.cc/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html). *Advances in Neural Information Processing Systems*, 34 (NeurIPS 2021).
