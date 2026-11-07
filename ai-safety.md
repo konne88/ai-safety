@@ -8,6 +8,8 @@ Here we explore, with mathematical rigor, the conditions that lead to instrument
 
 # Math
 
+## Model
+
 We model the universe with a Markov game, $(I, S, A, P, R, \gamma)$, where:
 
 - $I$ is the finite set of agents.
@@ -32,6 +34,24 @@ The value $V_i^\pi(s)$ is the expected cumulative discounted return to agent $i$
 $$
 V_i^\pi(s) = R_i(s) + \gamma \sum_{s' \in S} P^\pi(s' \mid s) V_i^\pi(s').
 $$
+
+
+A joint policy profile $\pi^*$  is a Subgame Perfect Equilibrium (SPE), if for all states $s$, $\pi^*$ is a Nash Equilibrium; meaning for all agents i, and all their alternative policies $\pi_i$ we have:
+
+$$
+V_{\pi^*_i, i} (s) \ge V_{(\pi^*_{i-1}, \pi_i),i} (s) 
+$$
+
+Where $\pi^*_-i = (0, ... ,i-1, i+1, ...)$.
+
+
+## Proof
+
+Assume a Markov Game without a reward function, $(I, S, A, P, \gamma)$.
+
+There exists a policy $\pi^*$, such that for every reward function $R$,
+every Subgame Perfect Equilibrium $\pi$ is equal to $\pi^*$. In other words,
+equilibria are independent of the reward function $R$.
 
 # Thoughts
 
