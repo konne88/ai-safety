@@ -63,7 +63,19 @@ The answer could be that there are many different goals to optimize for, so evol
 
 I'm not sure of the correct terminology, but maybe power-seeking is an attractor in a Markov game under certain realistic assumptions?
 
-The way to think about this may be that any single agent that's optimizing long term returns, for any given state, there is just one optimal action, which is independent of the reward function. 
+The way to think about this may be that any single agent that's optimizing long term returns, for any given state, there is just one optimal action, which is independent of the reward function. Let's call this optimal policy power seeking.
+
+Think of a game like Factorio. There's a bunch of different reward functions that anyone could chose. 
+A) You might want to beat the game (launch a rocket into space). 
+B) You may want to just build a little circle out of conveyor belts and go around forever. 
+C) You might want to create the most science packs per minute, forever.
+
+As anyone who played Factorio knows, there is a real shared resource that's limiting to everyone,
+and that's CPU cycles. 
+
+A) is time bounded, power seeking might not be optimal
+B) not time bounded, but resource bounded. by itself, power seeking might not be optimal
+C) not time bounded, and not resource bounded. Hypothesiss is that this will cause power seeking, and turn strategies like B into power seeking.
 
 # Related Work
 
